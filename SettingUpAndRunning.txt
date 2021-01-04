@@ -1,0 +1,36 @@
+All this is is setting up a command prompt window shortcut to automatically
+generate a path to the downloaded files, alongside steps on how to compile 
+and run for anyone using command prompt.
+
+Instructions assume Windows OS
+
+Setting Things Up
+
+1) Go to Windows search bar at the start menu and search for "command prompt"
+2) Click "Open File Location"
+3) Right click "Command Prompt" in the opened file explorer window
+4) Hover over "Send To" in the generated menu and click 
+   "Desktop (create shortcut)"
+5) Make sure you have downloaded and unzipped the files from github
+6) Find where the files from github are located in file explorer
+7) Copy the path to the folder
+8) Right click the shortcut icon of command prompt and click "properties"
+9) Under the shortcut tab find "Start in:" and paste the path to the files
+10) Click apply and close the window
+
+Preparing to Run the Program
+
+1) Open up the command prompt shortcut
+2) Type "g++ main.cpp zoomieAlgorithm.cpp -o z.out"
+3) Check to see an executable file in the folder containing program files
+4) Type "z.out" in the command prompt window to run!
+
+After the Set Up
+
+Do NOT edit the zoomies.csv excel sheet manually. If you do, make sure to
+reset using the program functions and everything should be fine. If needed,
+a back-up "prezoomies.csv" file will be generated to store information.
+
+That's it! After you finish the preparations, next time you want to run the
+program all you have to do is open the command prompt shortcut you set up and
+type "z.out" (Assuming that all the files are still in the right folder). 
